@@ -1,0 +1,39 @@
+﻿/** Regra de Estilo da div Geral **/
+/* esta regra definira a centralização da pagina */
+#geral{
+  width     : 80%;      /* Largura de 80% da Tela */
+  margin    : 0px auto; /* Margem de 0px no topo e 
+                          automatico para os demais lados */
+  padding   : 0px;      /* Espaçamento de 0px para todos os lados */
+  position  : relative; /*Posicionamento relativo ao conteudo */
+}
+
+.fundo{
+  background: #64B5F6;
+}
+.fundo-login{
+  background: #1565C0;
+}
+
+
+.box-login{
+  border:5px #fff solid;
+  border-radius:10px;
+  background: #2196F3;
+  width: 80%
+}
+.campos{
+  width:300px;
+  height: 30px;
+  border-radius: 3px;
+  border: 2px solid #BBDEFB;
+  margin-bottom: 10px;
+}
+::-webkit-input-placeholder  { 
+color:#90CAF9;
+text-align: right;
+padding-right: 5px;
+}
+input:-moz-placeholder {
+  color:#90CAF9; 
+  }
